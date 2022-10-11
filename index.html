@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function replace(){
+        var text = document.getElementById("textarea").value;
+        var newText = text.replace("like", "love");
+        document.getElementById("textarea").value = newText;
+      }
+    </script>
+  </head>
+  <body>
+    <textarea rows="4" cols="50" id="textarea"></textarea>
+    <button id="button" onclick="replace();">replace</button>
+  </body>
+</html>
